@@ -4,4 +4,5 @@
 
 <div><%#= @tasks.completed %></div>
 
-<div><%= link_to "Back to list", tasks_path %></div>
+<div><%= link_to "Back to list", root_path %></div>
+<div><%= link_to "Edit task", edit_task_path(@task) %></div>
